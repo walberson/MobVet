@@ -1,0 +1,19 @@
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  h1 {
+    margin-left: 4rem;
+  }
+
+  .menuContainer {
+    display: flex;
+    align-items: center;
+
+    li {
+      margin-right: 4rem;
+      list-style-type: none;
+    }
+  }
+}
