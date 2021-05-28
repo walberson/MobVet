@@ -1,0 +1,59 @@
+.landing {
+  .start {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .startText {
+      margin-left: 4rem;
+      width: 40%;
+
+      h3 {
+        margin: 0.3rem 0 0.3rem 0;
+        font-size: 1.9rem;
+        font-weight: 100;
+      }
+      p {
+        text-align: justify;
+      }
+      button {
+        margin-top: 2rem;
+        margin-left: 1rem;
+        padding: 1rem 4rem;
+        border-radius: 0.7rem;
+        border: darkseagreen solid;
+        background-color: white;
+        color: darkseagreen;
+        &:hover {
+          border: green solid;
+          background-color: white;
+          color: green;
+        }
+      }
+    }
+  }
+
+  .freeJoin {
+    display: flex;
+    align-items: center;
+    background-color: darkseagreen;
+    padding: 3rem;
+    input {
+      margin-left: 3rem;
+      padding: 1rem 5rem;
+      border: hidden;
+    }
+  }
+
+  .project {
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    div {
+      margin: 3rem;
+      p {
+        text-align: justify;
+      }
+    }
+  }
+}
