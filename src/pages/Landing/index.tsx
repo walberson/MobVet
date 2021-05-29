@@ -1,8 +1,9 @@
+import Link from "next/link";
 import styles from "./styles.module.scss";
 export function Landing() {
   return (
-    <div className={styles.landing}>
-      <div className={styles.start}>
+    <div className={styles.pageLanding}>
+      <div className={styles.landingStart}>
         <div className={styles.startText}>
           <h2>Atendimento Veterinário em Domicílio</h2>
           <h3>Encontre um veterínário próximo a você</h3>
@@ -12,7 +13,10 @@ export function Landing() {
             voluptatum ut fuga similique non animi harum pariatur sint voluptas
             aspernatur corrupti autem.
           </p>
-          <button>Buscar Consulta</button>
+          <Link href={`/VetList`}>
+            <button>Buscar Consulta</button>
+          </Link>
+
           <button>Cadastrar Serviço</button>
         </div>
         <div className={styles.startImage}>
@@ -20,7 +24,7 @@ export function Landing() {
         </div>
       </div>
 
-      <div className={styles.freeJoin}>
+      <div className={styles.landingJoin}>
         <div>
           <h2>Agende sua primeira consulta!</h2>
           <p>Encontre veterinários capacitados sem sair do conforto de casa!</p>

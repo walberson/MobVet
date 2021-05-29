@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./styles.module.scss";
 export function Header() {
   return (
@@ -5,7 +6,9 @@ export function Header() {
       <h1>MobVet</h1>
       <div>
         <ul className={styles.menuContainer}>
-          <li>Home</li>
+          <Link href={`/`}>
+            <li>Home</li>
+          </Link>
           <li>O projeto</li>
           <li>Clientes</li>
           <li>Login</li>

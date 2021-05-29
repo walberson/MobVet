@@ -1,0 +1,11 @@
+.topBarContainer {
+  background-color: darkseagreen;
+  .topBarTitle {
+    display: block;
+  }
+  .selector {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}

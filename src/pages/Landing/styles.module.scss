@@ -1,8 +1,8 @@
-.landing {
-  .start {
+.pageLanding {
+  .landingStart {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     .startText {
       margin-left: 4rem;
       width: 40%;
@@ -16,13 +16,14 @@
         text-align: justify;
       }
       button {
+        cursor: pointer;
         margin-top: 2rem;
         margin-left: 1rem;
         padding: 1rem 4rem;
-        border-radius: 0.7rem;
-        border: darkseagreen solid;
-        background-color: white;
-        color: darkseagreen;
+        border-radius: 0.8rem;
+        border: solid darkseagreen;
+        background-color: darkseagreen;
+        color: white;
         &:hover {
           border: green solid;
           background-color: white;
@@ -32,7 +33,7 @@
     }
   }
 
-  .freeJoin {
+  .landingJoin {
     display: flex;
     align-items: center;
     background-color: darkseagreen;
